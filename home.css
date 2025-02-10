@@ -1,0 +1,337 @@
+@font-face {
+	font-family: Montserrat;
+	src: url('font/mr.ttf');
+	font-family: 'Montserrat Bold';
+	src: url('font/mrb.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	background-color: #3D5936;
+	width: 100%;
+	/*max-width: 1024px; */
+	margin: 0 auto;
+}
+ul.first{
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+	margin-left: 390px;
+  height: 60px; /*задаем высоту*/
+}
+a.list {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  color: white; /*меняем цвет ссылок*/
+	margin-top:30px; /*делаем отступ сверху*/
+  padding:0px 70px; /*добавляем отступ*/
+  font-family: Montserrat;
+	font-size: 18px;
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block;
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a.list:hover {
+color:black;
+/*background:#ADD8E6;/*добавляем эффект при наведении*/
+}
+li.spiso {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+
+    /*Стили для скрытого выпадающего меню
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;
+    }
+
+    /*Делаем скрытую часть видимой
+    li:hover > ul {
+        display:block;
+        width:250px;  }/*Задаем ширину выпадающего меню*/
+
+  /* li:hover > ul > li {
+        float:none;} /*Убираем горизонтальное позиционирование*/
+
+.logo {
+	width: 230px;
+	height: 70px;
+	margin: 30px 40px 20px 40px;
+	float: left;
+}
+.two {
+position: absolut;
+display: inline-block;
+float: left;
+width: 80%;
+margin-left: 50px;
+height: 50px;
+}
+.one{
+display: inline-block;
+position: absolut;
+float: right;
+height: 80px;
+padding-right: 60px;
+}
+h1{
+  position: relative;
+  z-index: 2;
+}
+.fon {
+	width: 1000px;
+}
+h1 {
+	font-family: 'Montserrat Bold';
+	text-align: left;
+	font-size: 60px;
+	color: white;
+	margin: 100px 200px 100px 0px;
+}
+p.nashi {
+	margin-top: 770px;
+	margin-left: 600px;
+	font-family: 'Montserrat Bold';
+	text-align: left;
+	font-size: 35px;
+	color: white;
+}
+.serv {
+	float:left;
+	height: 450px;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+ul.second {
+	column-count: 2;
+	margin-top: 140px;
+}
+li.spisoo {
+list-style: none;
+height: 70px;
+	color: white; /*меняем цвет ссылок*/
+  font-family: Montserrat;
+	font-size: 18px;
+	margin-left: 60px;
+	margin-right: 100px;
+}
+.click-left h4 {
+  position: relative;
+}
+
+.arrow {
+  display: block;
+  position: absolute;
+  top: 852px;
+  right: 500px;
+  width: 40px;
+  height: 1px;
+  background-color: white;
+}
+
+.arrow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 1px;
+  background-color: white;
+  transform: rotate(-45deg);
+  transform-origin: 100% 0%;
+}
+
+.arrow:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 1px;
+  background-color: white;
+  transform: rotate(45deg);
+  transform-origin: 100% 0%;
+}
+
+h4:hover .arrow,
+h4:hover .arrow:before,
+h4:hover .arrow:after {
+  background-color: #000;
+}
+ul.second li {
+  padding: 5px;
+}
+h2 {
+	margin-top: 150px;
+	margin-left: 200px;
+	font-family: 'Montserrat Bold';
+	text-align: left;
+	font-size: 35px;
+	color: white;
+}
+ul.f1 {
+	column-count: 3;
+	margin-top: 60px;
+	padding-left: 200px;
+	padding-right: 100px;
+}
+.elem {
+	width: 200px;
+	height: 65px;
+	background-color: white;
+	font-family: Montserrat;
+	font-size: 15px;
+text-align-last: center;
+}
+ul.dat {
+	columns: 3;
+	margin-top: 80px;
+	margin-left: 160px;
+	color: white; /*меняем цвет ссылок*/
+	font-family: Montserrat;
+	font-size: 15px;
+}
+.data {
+	margin-left: 10px;
+	width: 140px;
+	height: 40px;
+	outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+.tim {
+	margin-left: 10px;
+	width: 125px;
+	height: 40px;
+	outline: none; /* Для синий ободки */
+	border: 0;
+	background: transparent;
+}
+.button {
+	margin-left: 110px;
+	font-family: Montserrat;
+	font-size: 13px;
+	color: white;
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+.arroww {
+  display: block;
+  position: absolute;
+  top: 1833px;
+  right: 380px;
+  width: 28px;
+  height: 1px;
+  background-color: white;
+}
+
+.arroww:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 1px;
+  background-color: white;
+  transform: rotate(-45deg);
+  transform-origin: 100% 0%;
+}
+
+.arroww:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 1px;
+  background-color: white;
+  transform: rotate(45deg);
+  transform-origin: 100% 0%;
+}
+
+h4:hover .arrow,
+h4:hover .arrow:before,
+h4:hover .arrow:after {
+  background-color: #000;
+}
+hr {
+	  width: 1250px;
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+		margin-top: 100px;
+   }
+footer div {
+	display: inline-block;
+}
+.face {
+	width: 20px;
+	height: 40px;
+	display: inline-block;
+ margin-left: 250px;
+ margin-top: 30px;
+}
+.inst {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+ margin-left: 30px;
+ margin-top: 30px;
+}
+.twit {
+	width: 50px;
+	height: 40px;
+	display: inline-block;
+ margin-left: 30px;
+ margin-top: 30px;
+}
+.niz {
+	display: inline-block;
+	color: white;
+	font-family: Montserrat;
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 50px;
+	margin-left: 95px;
+}
+.pravo{
+	display: inline-block;
+	color: white;
+	font-family: Montserrat;
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 50px;
+	margin-left: 305px;
+}
+footer a:hover {
+	opacity: 0.6;
+}
+@media screen and (max-width: 800px) {
+header {
+	margin: auto;
+}
+nav li {
+		display: inline-block;
+		margin-top: 20px;
+		text-align: left;
+		padding: 0;
+}
+/*.pict {
+	float: left;
+	padding: 0;
+	margin: 10px 10px 0 295px;
+}
+footer div {
+	padding: 10px;
+}
+}
